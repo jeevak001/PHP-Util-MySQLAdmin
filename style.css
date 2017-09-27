@@ -1,0 +1,69 @@
+html{
+	text-align:center;
+	background: #E3F2FD;
+}
+
+
+#wrapper{
+	display: inline-block;
+	width: 800px;
+	height: auto;
+}
+
+#query{
+	width: 500px;
+	padding: 5px;
+	height: 100px;
+}
+
+#result{
+	display: inline-block;
+	}
+
+.error{
+	color: red;
+	font-weight: bolder;
+}
+
+.success{
+	color: green;
+	font-weight: bolder;
+}
+
+#button {
+	font-family: "Georgia",sans-serif;
+	background-color: #448AFF;
+	color: white;
+	border: 0px;
+	border: 2px solid #448AFF;
+	padding: 5px;
+}
+#button:hover {
+	font-family: "Georgia",sans-serif;
+	background-color: #448AFF;
+	color: white;
+	border: 2px solid #3F51B5;
+	padding: 5px;
+}
+.query{
+	color: blue;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.table{
+	padding: 5px;
+	border: 2px solid green;
+	background-color: #FEFEFE;
+}
+.tableMain{
+	padding: 2px;
+	border: 1px solid green;
+	background-color: #FEFEFE;
+}
+.tableHeader{
+	padding: 5px;
+	color: white;
+	border: 2px solid green;
+	background-color: #303F9F;
+}
